@@ -57,6 +57,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'MyProject.urls'
 
+CSRF_TRUSTED_ORIGINS = ['https://peitel-backend-gwfz.onrender.com']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -126,3 +128,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
