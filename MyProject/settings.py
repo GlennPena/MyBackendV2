@@ -62,7 +62,7 @@ CSRF_TRUSTED_ORIGINS = ['https://peitel-backend-gwfz.onrender.com']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "MyProject" / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
